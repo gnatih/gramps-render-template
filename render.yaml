@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: gramps-web
+    runtime: image
+
+    image:
+      url: ghcr.io/gramps-project/grampsweb:latest
+
+    plan: free
+
+    autoDeploy: true
